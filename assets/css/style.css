@@ -1,0 +1,115 @@
+
+.header{
+	margin-bottom:70px;
+}
+/* typography */
+
+
+.pri-heading{
+	margin-bottom:20px;
+	color: var(--text-pri);
+	font-size: 32px;
+	font-weight: bold;
+}
+.sec-heading{
+	color: var(--text-sec);
+	font-size: 20px;
+}
+.para{
+	color: var(--text-ter);
+}
+.px-20{
+	padding: 0 20px;
+}
+.navbar ul{
+	text-align:right;
+}
+.navbar ul li:not(:last-child){
+	margin:0 16px;
+}
+.navbar ul li a:is(:active,:link,:visited){
+	display: inline-block;
+	padding:0 16px;
+	font-size: 22px;
+	font-weight: bold;
+	
+	transition:all 0.4s linear;
+}
+.navbar ul li a:hover{
+	background-color: var(--color-sec);
+	color: var(--color-pri);
+}
+.brand-icon ul li:hover i{
+	transform:scale(1.3) rotate(360deg);
+}
+
+.brand-icon ul li:hover i{
+	transform:scale(1.3) rotate(360deg);
+}
+.ipad div img{
+	margin-left: 20px;
+}
+.features{
+	padding: 118px 0 160px;
+}
+.text-center{
+	text-align:center;
+}
+.thumbnail .icon{
+	font-size: 40px
+}
+.ter-heading{
+	margin-bottom:16px;
+	font-weight: 22px
+}
+.footer{
+	padding: 90px 0 140px 0;
+	background-color: var(--color-sec);
+}
+.footer .pri-heading{
+	color: var(--color-pri);
+}
+.footer input{
+	height: 50px;
+	border-radius: 7px;
+	margin-left: 22px;
+	width: 580px;
+	padding: 20px;
+	border: 1px solid white;
+}
+.footer button{
+	height: 50px;
+	border-radius: 7px;
+	margin-left: 22px;
+	width: 125px;
+	border: 1px solid var(--color-pri);
+	background-color: var(--color-pri);
+	font-weight: bold;
+}
+
+.footer::placeholder{
+	color: var(--text-ter);
+	font-size: 16px;
+}
+.updateEmail{
+	margin-bottom: 80px;
+}
+
+.form-group .brand-icon i{
+	color: var(--color-pri);
+}
+
+/* ------------------------------------------------------Footer Section Css -------------------------------------------------------------- */
+
+.footer .link{
+	padding: 135px 0 0;
+	background-color: var(--color-sec);
+	color: var(--color-white);
+}
+.footer a{
+	color: var(--color-white);
+}
+.footer .last{
+	padding-left: 40px;
+}
+

@@ -1,0 +1,104 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Roboto", serif;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+:root{
+	--color-pri: #fcdb00;
+	--color-sec: #010101;
+	--color-ter: #3b3b42;
+	--text-pri: #010101;
+	--text-sec: #313841;
+	--text-ter: #898989;
+	--color-white: #fff;
+	--color-dark: #000;
+}
+.capitalize{
+	text-transform:capitalize;
+}
+.heroImage{
+	background-color: var(--color-pri);
+	padding:60px 0 110px
+}
+.container{
+	width:1180px;
+	margin:0 auto;
+}
+
+.navbar ul li{
+	display:inline-block;
+	line-height: 44px;
+}
+.navbar ul a{
+	color: var(--color-sec);
+}
+.row{
+	display:table;
+	clear:both;
+	width:100%;
+}
+.row:not(:last-child){
+	margin-bottom: 70px;
+}
+[class^="col-"]{
+	float:left;
+	padding: 0 15px;
+}
+.col-2{
+	width: calc(100%*2/12);
+}
+.col-5{
+	width: calc(100%*5/12);
+}
+.col-3{
+	width : calc(100%*3/12);
+}
+.col-4{
+	width: calc(100%*4/12);
+}
+.col-9{
+	width: calc(100%*9/12);
+}
+.col-10{
+	width: calc(100%*10/12);
+}
+
+.offset-2{
+	margin-left: calc(100%*2/12);
+}
+.offset-1{
+	margin-left: calc(100%*1/12);
+}
+
+.inspiration h1{
+	margin-bottom: 23px;	
+}
+.inspiration h2{
+	margin-bottom: 23px;	
+}
+
+.inspiration{
+	margin-bottom:40px;	
+	margin-top:70px
+}
+.container .brand-icon ul li{
+	display:inline-block;
+	list-style:none;
+	margin-right:37px;
+	font-size:40px;
+}
+.brand-icon ul li i{
+	transition:all 0.7s linear;
+	color: var(--color-sec);
+}
